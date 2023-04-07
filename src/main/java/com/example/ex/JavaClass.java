@@ -9,7 +9,7 @@ public class JavaClass {
 // 만약 new Book();만 선언되서 참조하는 변수가 없다면 그건 garbage인 쓰레기다.
 
 // 필드는 클래스의 속성, 메소드는 클래스의 기능이다.
-// class 앞에는 접근제한자가 붙습니다(public, protected, private, default)
+// class 앞에는 접근제한자가 붙습니다(public, protected, private, default(안붙이기))
 // 클래스 이름은 대문자로 작성하자!
 // 단어와 단어가 만날 경우 2번째 단어의 시작은 대문자! (HelloWorld) = 카멜 표기법
 
