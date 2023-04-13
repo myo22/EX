@@ -4,7 +4,7 @@ public class PersonTest {
     public static void main(String[] args){
        //  Person p1;  p1은 null이다.
         Person p1 = new Person();
-        Person p2 = new Person();
+        Person p2 = new Person(); // 이 줄을 실행할때는 이미 메모리에 올라가 있는 Person클래스 정보를 이용해 인스턴스를 생성한다는 것이다.
 
 
         p1.name = "사시미"; // 문자열은 new를 사용하지 않고 인스턴스를 사용할 수있다. 되도록 new를 사용하지 말자.
