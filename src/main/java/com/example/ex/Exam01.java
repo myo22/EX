@@ -1,6 +1,6 @@
 package com.example.ex;
 
-public class Exam01 {
+public class Exam01 { // 정보은닉(= 신호등)이라는 개념이 있는데 객체 지향에서는 필드를 직접 접근하는 것은 안좋다(접근 지정자를 이용) ex) Exam01에서 i에 직접 접근
     public static void main(String[] args){
 
         Parent p1 = new Parent();
