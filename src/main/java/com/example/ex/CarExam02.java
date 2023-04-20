@@ -16,3 +16,5 @@ public class CarExam02 {
 // Object o2 = new Bus();
 // Object o3 = new 이층버스();
 // System.out.println(o1.toString()); == System.out.println(o1);
+// equals는 같은 참조냐가 아니라 같은 값이냐?를 비교하는건데 기준을 정해주어야 한다. -> 오버라이딩해서 써야한다.
+// (HashSet,HashMap) Hash알고리즘을 사용하기 위해서는 오버리이딩을 해야한다.
