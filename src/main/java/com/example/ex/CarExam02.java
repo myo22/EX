@@ -3,8 +3,12 @@ package com.example.ex;
 public class CarExam02 {
     public static void main(String[] args){
         Car c1 = new Car();
+        c1.printName();
         System.out.println(c1); // System의 println의 오버로딩 중에서 Object를 받아들이는 println이 사용중이다.
                                 // println(Object x) -> Object로 참조할 수 있는것은 무엇이든 받을 수 있다.
+        System.out.println("----------");
+        Car c2 = new Car("minhyung");
+        c2.printName();
     }
 }
 
