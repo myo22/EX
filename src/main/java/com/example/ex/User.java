@@ -7,13 +7,12 @@ public class User {
 
     // 생성자를 하나라도 만들게 되면 기본생성자가 자동으로 안만들어진다.
     public User(String email, String name) {
-        this.email = email;
-        this.name = name;
+        this(name, email, null); // 항상 첫번째 줄에 나와야한다.
     }
 
     // 매개변수를 3개 받아들이는걸 만들었는데 이때 이름은 같고 매개변수가 다른것
-    // -> 생성자 오버로딩
-    public User(String email, String password, String name) {
+    // -> 생성자 오버로딩 ( 매개변수의 개수가 다르거나, 타입이 다르면 여러개 생성가능)
+    public User(String email, String name, String password) {
         this.email = email;
         this.password = password;
         this.name = name;
@@ -30,5 +29,14 @@ public class User {
 
     public String getName() {
         return name;
+    }
+
+    // 암호는 반환하지 않도록 설정해야한다.
+    @Override
+    public String toString() {
+        return "User{" +
+                "email='" + email + '\'' +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
