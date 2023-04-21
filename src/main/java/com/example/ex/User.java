@@ -7,7 +7,7 @@ public class User {
 
     // 생성자를 하나라도 만들게 되면 기본생성자가 자동으로 안만들어진다.
     public User(String email, String name) {
-        this(name, email, null); // 항상 첫번째 줄에 나와야한다.
+        this(name, email, null); // super() 생성자를 호출하는 코드 다음이나, 첫번째 줄에 나와야한다.
     }
 
     // 매개변수를 3개 받아들이는걸 만들었는데 이때 이름은 같고 매개변수가 다른것
