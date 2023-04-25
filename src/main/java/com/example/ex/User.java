@@ -31,7 +31,7 @@ public class User {
         return name;
     }
 
-    // 암호는 반환하지 않도록 설정해야한다.
+    // 정보보호를 위하여 암호는 반환하지 않도록 설정해야한다.
     @Override
     public String toString() {
         return "User{" +
