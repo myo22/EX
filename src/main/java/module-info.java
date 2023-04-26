@@ -5,4 +5,6 @@ module com.example.ex {
 
     opens com.example.ex to javafx.fxml;
     exports com.example.ex;
+    exports com.example.fw;
+    opens com.example.fw to javafx.fxml;
 }
