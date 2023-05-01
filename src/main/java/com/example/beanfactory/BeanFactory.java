@@ -1,4 +1,6 @@
-package com.example.ex;
+package com.example.beanfactory;
+
+import com.example.ex.Bus;
 
 public class BeanFactory {
 
