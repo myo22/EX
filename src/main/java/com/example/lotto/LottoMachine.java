@@ -1,4 +1,4 @@
-package com.example;
+package com.example.lotto;
 
 // 인터페이스
 // 무슨 기능을 만들어야 할까? vs 구현부터 하기

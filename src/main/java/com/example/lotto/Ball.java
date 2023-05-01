@@ -1,4 +1,4 @@
-package com.example;
+package com.example.lotto;
 
 // 불변객체, 불변클래스 Why? 로또 번호를 섞는데 번호값이 바뀌면 그건 안되니까
 public class Ball {
