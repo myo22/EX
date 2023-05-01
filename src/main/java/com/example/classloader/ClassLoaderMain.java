@@ -1,4 +1,4 @@
-package com.example.ClassLoader;
+package com.example.classloader;
 
 import java.lang.reflect.Method;
 
@@ -17,7 +17,7 @@ public class ClassLoaderMain {
         // 그 정보를 clazz가 참조하도록 한다.
         // Object o = new Bus3();와 아래 세줄은 같다.
         // Car3 = new Bus3();
-        String className= "com.example.ClassLoader.SuperCar2";
+        String className= "com.example.classloader.SuperCar2";
         Class clazz = Class.forName(className);
         Object o =clazz.newInstance();
 

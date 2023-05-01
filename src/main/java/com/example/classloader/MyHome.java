@@ -1,4 +1,4 @@
-package com.example.ClassLoader;
+package com.example.classloader;
 
 public class MyHome {
     public void a(){

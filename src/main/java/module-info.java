@@ -7,6 +7,6 @@ module com.example.ex {
     exports com.example.ex;
     exports com.example.fw;
     opens com.example.fw to javafx.fxml;
-    opens com.example.ClassLoader to javafx.fxml;
-    exports com.example.ClassLoader;
+    opens com.example.classloader to javafx.fxml;
+    exports com.example.classloader;
 }

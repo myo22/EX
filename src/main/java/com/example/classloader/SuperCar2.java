@@ -1,4 +1,4 @@
-package com.example.ClassLoader;
+package com.example.classloader;
 
 public class SuperCar2 extends Bus3{
     public void a(){
