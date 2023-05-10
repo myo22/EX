@@ -1,4 +1,4 @@
-package com.example.array;
+package com.example.arrays;
 
 import java.util.Arrays;
 // java.lang 패키지의 클래스는 import를 하지 않아도 사용가능하다.
